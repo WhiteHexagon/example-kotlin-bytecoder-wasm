@@ -11,5 +11,5 @@ interface ExtDiv : Element {
     fun clientHeight(): Int
 
     @OpaqueProperty
-    fun style(stlye: String)
+    fun style(style: String)
 }

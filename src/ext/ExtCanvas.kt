@@ -13,6 +13,4 @@ interface ExtCanvas : HTMLCanvasElement {
     @OpaqueProperty
     fun height(height: Int)
 
-    fun toDataURL(format: String): String
-
 }
